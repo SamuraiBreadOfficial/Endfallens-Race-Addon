@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "race:tea",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "race_tea",
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.8,
+				"use_duration": 2
+			},
+			"minecraft:use_animation": "drink",
+			"minecraft:hover_text_color": "yellow",
+			"minecraft:custom_components": [
+				"race:tea"
+			],
+			"minecraft:food": {
+				"can_always_eat": true,
+				"saturation_modifier": 5,
+				"nutrition": 1,
+				"using_converts_to": "race:tea_cup"
+			}
+		}
+	}
+}

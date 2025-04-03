@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "race:super_launch",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "race_super_launch",
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_modifiers": {
+				"use_duration": 0,
+				"movement_modifier": 1
+			},
+			"minecraft:cooldown": {
+				"category": "Launch",
+				"duration": 4
+			},
+			"minecraft:custom_components": [
+				"race:avianlaunch"
+			],
+			"minecraft:use_animation": "none"
+		}
+	}
+}

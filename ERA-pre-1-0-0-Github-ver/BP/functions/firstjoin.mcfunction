@@ -1,0 +1,12 @@
+execute at  @a[tag=!endfallen_member] run title @p title §5Welcome to
+execute at  @a[tag=!endfallen_member] run title @p subtitle  EndfallenSMP
+execute at  @a[tag=!endfallen_member] run give @p race:race_orb
+execute at @a[tag=!endfallen_member] run tellraw @p {"rawtext":[{"text":"§c<EndfallenSMP> "},{"text":"§eWelcome to our server!\n\nTo continue please select the race with Race Orb.\n\nTo craft main menu you you need sticks 9 sticks :)"}]}
+execute if entity @a[tag=!endfallen_member] run tellraw @p {"rawtext":[{"text":"§c<EndfallenSMP> "},{"text":"§eSomeone new joined!"}]}
+execute at  @a[tag=!endfallen_member] run tellraw @p {"rawtext":[{"text":"§4§l[ Race ]"},{"text":"§r§e Choose the race that got rolled for you! You can check it in roles at your profile on discord! "},{"text":"§4§lRemember! "},{"text":"§c§lChoosing the race not ment for you can cause an punishment! We have everyone listed out. The only way your race to be rerolled is your character permadying! (It needs to be aprooved by staff.)"}]}
+tag @a[tag=!endfallen_member] add endfallen_member
+execute at @a[tag=!"Redstone & Ruin"] run title @p title §5Endfallen's Races 0.1.0
+execute at @a[tag=!"Redstone & Ruin"] run title @p subtitle "§e< Redstone & Ruin >"
+execute at @a[tag=!"Redstone & Ruin"] run playsound  music.spout @p ~ ~ ~ 9 1 1 
+tag @a[tag=!"Redstone & Ruin"] add "Redstone & Ruin"
+tag @a[tag=version] remove version

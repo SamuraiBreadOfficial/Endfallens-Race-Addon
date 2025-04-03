@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "race:main_menu",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "race_main_menu",
+			"minecraft:max_stack_size": 1,
+			"minecraft:display_name": {
+				"value": "§k§eK §r§l§5Main Menu§r §k§eK"
+			},
+			"minecraft:glint": true
+		}
+	}
+}

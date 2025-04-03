@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "race:magic_change",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "race_magic_change",
+			"minecraft:max_stack_size": 1,
+			"minecraft:glint": true,
+			"minecraft:cooldown": {
+				"category": "magic_change",
+				"duration": 4
+			}
+		}
+	}
+}

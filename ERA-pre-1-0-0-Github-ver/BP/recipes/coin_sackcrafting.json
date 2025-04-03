@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:coin_sackcrafting"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"C": {
+				"item": "race:coin"
+			}
+		},
+		"pattern": [
+			"CCC",
+			"CCC",
+			"CCC"
+		],
+		"result": {
+			"item": "race:coin_sack"
+		}
+	}
+}

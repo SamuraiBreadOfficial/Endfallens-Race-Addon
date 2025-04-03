@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "race:mp_otherside",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.record"			}
+		},
+		"components": {
+			"minecraft:icon": "race_mp_otherside",
+			"minecraft:max_stack_size": 1,
+			"minecraft:allow_off_hand": true
+		}
+	}
+}
