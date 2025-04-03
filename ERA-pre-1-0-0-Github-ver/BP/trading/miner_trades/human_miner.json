@@ -1,0 +1,590 @@
+{
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "minecraft:gravel",
+									"quantity": {
+										"max": 64,
+										"min": 64
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"min": 1,
+										"max": 1
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:cobblestone",
+									"quantity": {
+										"min": 64,
+										"max": 120
+									},
+									"price_multiplier": 0.05
+								}
+							],
+							"gives": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 2,
+										"min": 0
+									},
+									"functions": [
+										{
+											"function": "set_lore",
+											"lore": [
+												"EndfallenSMP Currency"
+											]
+										}
+									]
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:stone",
+									"quantity": {
+										"max": 40,
+										"min": 64
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"min": 1,
+										"max": 3
+									},
+									"functions": [
+										{
+											"function": "set_lore",
+											"lore": [
+												"EndfallenSMP Currency"
+											]
+										}
+									]
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:calcite",
+									"quantity": {
+										"max": 32,
+										"min": 64
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 3,
+										"min": 1
+									},
+									"functions": [
+										{
+											"function": "set_lore",
+											"lore": [
+												"EndfallenSMP Currency"
+											]
+										}
+									]
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 16,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:coal",
+									"quantity": {
+										"max": 16,
+										"min": 6
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 6,
+										"min": 1
+									}
+								},
+								{
+									"item": "minecraft:stick",
+									"quantity": {
+										"min": 1,
+										"max": 5
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:torch",
+									"quantity": {
+										"min": 16,
+										"max": 64
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 6,
+										"min": 3
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:copper_ingot",
+									"quantity": {
+										"max": 32,
+										"min": 12
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 14,
+										"min": 3
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:gold_ingot",
+									"quantity": 4
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin_sack",
+									"quantity": {
+										"max": 3,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:iron_ingot",
+									"quantity": 16
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin_sack",
+									"quantity": {
+										"max": 4,
+										"min": 1
+									}
+								},
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 13,
+										"min": 4
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:diamond",
+									"quantity": 1
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin_sack",
+									"quantity": {
+										"max": 6,
+										"min": 3
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:potion",
+									"functions": [
+										{
+											"function": "set_potion",
+											"id": "nightvision"
+										}
+									],
+									"quantity": 1
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:redstone",
+									"quantity": 64
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin_sack",
+									"quantity": {
+										"max": 1,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:quartz",
+									"quantity": {
+										"max": 64,
+										"min": 1
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 10,
+										"min": 2
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:amethyst_shard",
+									"quantity": {
+										"max": 26,
+										"min": 4
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin_sack",
+									"quantity": {
+										"max": 11,
+										"min": 10
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:obsidian",
+									"quantity": 5
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "race:coin",
+									"quantity": 1
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:lapis_lazuli",
+									"quantity": {
+										"max": 16,
+										"min": 2
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 3,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:basalt",
+									"quantity": {
+										"max": 64,
+										"min": 1
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 10,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:deepslate",
+									"quantity": {
+										"max": 64,
+										"min": 1
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 6,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:glowstone_dust",
+									"quantity": {
+										"max": 16,
+										"min": 4
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin",
+									"quantity": {
+										"max": 6,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:dripstone_block",
+									"quantity": {
+										"max": 32,
+										"min": 1
+									}
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin_sack",
+									"quantity": {
+										"max": 6,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"choice": [
+										{
+											"item": "minecraft:diamond_helmet",
+											"quantity": 1
+										},
+										{
+											"item": "minecraft:diamond_chestplate",
+											"quantity": 1
+										},
+										{
+											"item": "minecraft:diamond_leggings",
+											"quantity": 1
+										},
+										{
+											"item": "minecraft:diamond_boots",
+											"quantity": 1
+										}
+									]
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						},
+						{
+							"wants": [
+								{
+									"item": "race:coin_sack",
+									"quantity": {
+										"max": 6,
+										"min": 1
+									}
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:enchanted_book",
+									"functions": [
+										{
+											"function": "enchant_randomly",
+											"treasure": true
+										}
+									],
+									"quantity": 1
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": -1,
+							"reward_exp": true
+						}
+					]
+				}
+			]
+		}
+	]
+}
