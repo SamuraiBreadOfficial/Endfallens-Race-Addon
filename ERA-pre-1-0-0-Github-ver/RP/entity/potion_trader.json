@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "race:potion_trader",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/alchemist"
+			},
+			"geometry": {
+				"default": "geometry.alchemist"
+			},
+			"scripts": {
+				"scale": 1
+			},
+			"animations": {
+				"general": "animation.human_miner.general",
+				"look_at_target": "animation.common.look_at_target",
+				"raise_arms": "animation.human_miner.raise_arms",
+				"move": "animation.human_miner.move"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.human_miner.general"
+				},
+				{
+					"move": "controller.animation.human_miner.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.human_miner"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

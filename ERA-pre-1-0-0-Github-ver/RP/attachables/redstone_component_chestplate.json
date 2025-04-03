@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "race:redstone_component_chestplate",
+			"materials": {
+				"default": "entity_emissive_alpha",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/models/armor/redst_comp_chest",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.redst_comp.chest"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

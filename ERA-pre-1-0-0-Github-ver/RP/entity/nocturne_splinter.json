@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"min_engine_version": "1.21.40",
+			"identifier": "race:nocturne_splinter",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/NocturneSplinterTXT"
+			},
+			"geometry": {
+				"default": "geometry.nocturne_splinter"
+			},
+			"animations": {},
+			"scripts": {},
+			"render_controllers": [
+				"controller.render.nocturne_splinter"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}
