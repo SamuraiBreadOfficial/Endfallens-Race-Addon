@@ -1,0 +1,23 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.dwarven_hammer.first_person_hold": {
+            "loop": true,
+            "animation_length": 0.25,
+            "bones": {
+                "rightitem": { "rotation": [ 65.18397, 63.76353, -108.55355 ], "position": [ -5.12121, 32.13377, 12.05961 ]},
+                "fan1": { "rotation": { "0.0": [ 0, 0, 0 ], "0.25": [ -365, 0, 0 ]}},
+                "fan2": { "rotation": { "0.0": [ 0, 0, 0 ], "0.25": [ -365, 0, 0 ]}}
+            }
+        },
+        "animation.dwarven_hammer.third_person_hold": {
+            "loop": true,
+            "animation_length": 0.25,
+            "bones": {
+                "rightitem": { "rotation": [ 90, 0, 0 ], "position": [ 0.59767, 23, -1.75363 ]},
+                "fan1": { "rotation": { "0.0": [ 0, 0, 0 ], "0.25": [ -365, 0, 0 ]}},
+                "fan2": { "rotation": { "0.0": [ 0, 0, 0 ], "0.25": [ -365, 0, 0 ]}}
+            }
+        }
+    }
+}
