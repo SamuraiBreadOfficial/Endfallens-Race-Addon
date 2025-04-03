@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:redstone_wires"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DID",
+			"DCD",
+			"DID"
+		],
+		"key": {
+			"C": {
+				"item": "minecraft:copper_ingot"
+			},
+			"D": {
+				"item": "minecraft:redstone"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "race:redstone_wires",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:disc_otherside"
+		},"tags": ["crafting_table"],
+		"key": {
+			"D": {
+				"item": "minecraft:music_disc_otherside"
+			}	
+		},
+		"pattern": [
+			"D"
+		],
+		"result": {
+			"item": "race:mp_otherside",
+			"count": 1
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

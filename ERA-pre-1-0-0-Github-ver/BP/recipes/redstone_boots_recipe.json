@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:redstone_boots_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N N",
+			"I I"
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"N": {
+				"item": "minecraft:netherite_ingot"
+			}
+		},
+		"result": {
+			"item": "race:redstone_component_boots"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

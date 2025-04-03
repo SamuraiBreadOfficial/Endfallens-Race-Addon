@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:redstone_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N N",
+			"IFI",
+			"IRI"
+		],
+		"key": {
+			"F": {
+				"item": "race:fan"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"N": {
+				"item": "minecraft:netherite_ingot"
+			},
+			"R": {
+				"item": "race:redstone_component"
+			}
+		},
+		"result": {
+			"item": "race:redstone_component_chestplate"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

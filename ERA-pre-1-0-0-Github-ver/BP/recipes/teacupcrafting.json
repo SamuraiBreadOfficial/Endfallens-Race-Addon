@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:teacupcrafting"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"PGG",
+			" GG"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:glass"
+			},
+			"P": {
+				"item": "minecraft:glass_pane"
+			}
+		},
+		"result": {
+			"item": "race:tea_cup",
+			"count": 2
+		}
+	}
+}

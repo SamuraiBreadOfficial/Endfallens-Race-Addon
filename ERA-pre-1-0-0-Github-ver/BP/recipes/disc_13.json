@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:disc_13"
+		},
+		"tags": ["crafting_table"],
+		"key": {
+			"D": {
+				"item": "minecraft:music_disc_13"
+			}	
+		},
+		"pattern": [
+			"D"
+		],
+		"result": {
+			"item": "race:mp_13",
+			"count": 1
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

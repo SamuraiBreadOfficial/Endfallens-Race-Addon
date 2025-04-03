@@ -1,0 +1,14 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:recipe_brewing_mix": {
+		"description": {
+			"identifier": "race:tea_making"
+		},
+		"tags": [
+			"brewing_stand"
+		],
+		"input": "race:tea_cup",
+		"reagent": "race:tea_leaf",
+		"output": "race:tea"
+	}
+}

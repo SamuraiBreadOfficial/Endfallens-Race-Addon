@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:disc_ward"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:music_disc_ward"
+			}
+		},
+		"pattern": [
+			"D"
+		],
+		"result": {
+			"item": "race:mp_ward",
+			"count": 1
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:disc_stal"
+		},"tags": ["crafting_table"],
+		"key": {
+			"D": {
+				"item": "minecraft:music_disc_stal"
+			}	
+		},
+		"pattern": [
+			"D"
+		],
+		"result": {
+			"item": "race:mp_stal",
+			"count": 1
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

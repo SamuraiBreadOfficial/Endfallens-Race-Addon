@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "race:redstone_component"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DCD",
+			"ITI",
+			"DBD"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:iron_block"
+			},
+			"C": {
+				"item": "minecraft:diamond"
+			},
+			"D": {
+				"item": "minecraft:redstone"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"T": {
+				"item": "minecraft:redstone_torch"
+			}
+		},
+		"result": {
+			"item": "race:redstone_component",
+			"count": 1
+		}
+	}
+}
