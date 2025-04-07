@@ -15,6 +15,8 @@ Here's the full changelog of the addon. ( Still being updated )
 
 ![All Text](/media-storage/logos/ERA_update.png?raw=true)
 
+
+<details> <summary>Warning: Massive spoiler :0 || Changelog</summary>
 # Major Changes:
 
 ## Spirit
@@ -223,3 +225,8 @@ Now you’re all set to experience ERA’s music system in the best way possible
 - **Added Race Choosing Menu to the Main Menu** (No more race rolls)  
 - Removed tags that caused main menu bugs  
 - Added "Fast Travel" button in the main menu (still unfinished)  
+- Revamped Armors
+- Fixed EVEN MOOOOOOOOOOOOOOORE bugs
+
+</details>
+Updated on: 07/04/2024
