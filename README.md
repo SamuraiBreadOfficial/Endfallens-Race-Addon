@@ -5,7 +5,7 @@ ERA is an Addon which focuses on new races, new armors, new uttilities and more.
 Main reason why this addon is being developed is the "EndfallenSMP" server, which you can join by clicking [here](https://discord.gg/invite/G2xzFhZctj).
 
 
-# New Version **( v1.0.0-Closed-Beta0.99.0 Testing )**
+# New Version **( v1.0.0-Closed-Beta0.99.1 Testing )**
 
 New version focused on updating the addon to **Minecraft 1.21.70** and bringing new feautures like: entities, uttilities, weapons and armor.
 
